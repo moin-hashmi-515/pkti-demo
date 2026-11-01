@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PKTI Lahore — DEMO Admissions Redesign</title>
+<meta name="description" content="DEMO admissions redesign for Pakistan Knitwear Training Institute, Lahore. Course pages and one online application flow — demo only, not the institute's live site.">
+<style>
+:root{--navy:#14213d;--green:#16a34a;--ink:#1c2b33;--muted:#5a6b72;--bg:#f4f6f5;--card:#fff}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.55}
+.demo{background:#b3261e;color:#fff;text-align:center;padding:10px 14px;font-weight:700;font-size:14px}
+.demo small{display:block;font-weight:400;opacity:.9}
+header{background:var(--navy);color:#fff}
+.wrap{max-width:1050px;margin:0 auto;padding:0 18px}
+.top{display:flex;gap:16px;align-items:center;padding:18px 0;flex-wrap:wrap}
+.logo{font-weight:800;font-size:24px;color:#fff}
+h1{margin:0;font-size:24px}h1 small{display:block;font-size:15px;color:#dbe3e3;font-weight:500}
+nav{display:flex;gap:18px;padding:0 0 14px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-weight:600}
+.hero{padding:34px 0 24px}.hero h2{font-size:32px;margin:0 0 10px;line-height:1.25}.hero p{font-size:18px;color:#334}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:700;margin:6px 8px 6px 0}
+.btn.outline{background:#fff;color:var(--navy);border:2px solid var(--navy)}
+section{padding:26px 0}h2{font-size:26px;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border-radius:14px;padding:18px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+.card h3{margin:0 0 6px;font-size:18px}.card p{margin:0;color:var(--muted)}
+.sample{display:inline-block;background:#fff3cd;color:#664d03;font-size:12px;font-weight:700;padding:3px 8px;border-radius:20px;margin-bottom:8px}
+form{background:#fff;border-radius:14px;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+label{display:block;font-weight:600;margin:12px 0 4px}
+input,select,textarea{width:100%;padding:11px;border:1px solid #cbd5d7;border-radius:10px;font:inherit}
+button{cursor:pointer;background:var(--green);color:#fff;border:0;padding:13px 22px;border-radius:10px;font-weight:700;font-size:16px}
+.ok{background:#e6f4ea;border:1px solid #a3d9a5;padding:12px;border-radius:10px;margin-top:14px;display:none}
+.note{font-size:14px;color:var(--muted)}footer{background:var(--navy);color:#dbe3e3;padding:26px 0;margin-top:20px}footer a{color:#fff}
+@media(max-width:600px){.hero h2{font-size:27px}}
+</style>
+</head>
+<body>
+<div class="demo">DEMO REDESIGN — NOT THE INSTITUTE'S LIVE SITE <small>This is a sample admissions redesign for PKTI Lahore to review. Applications entered here are demo-only and are not sent to the institute.</small></div>
+<header><div class="wrap">
+<div class="top"><div class="logo">PKTI</div><div><h1>Pakistan Knitwear Training Institute, Lahore <small>Admissions redesign — one clear course application flow</small></h1></div></div>
+<nav><a href="#courses">Courses</a><a href="#apply">Apply Online</a><a href="#contact">Contact</a><a href="admin.html">Institute Login (Demo CMS)</a></nav>
+</div></header>
+<main class="wrap">
+<section class="hero">
+<h2>One clear path from course to application.</h2>
+<p>The institute's live site lists courses, a contact form, and a separate document-upload “How To Apply” page with a Rs. 100 cash application pack — but no single clear online course-booking flow. This demo puts the course, its fee as shown on the site, and the application in one place, with the document checklist a student actually needs.</p>
+<a class="btn" href="#apply">Apply Online (Demo)</a>
+<a class="btn outline" href="#courses">Browse Courses</a>
+</section>
+
+<section id="courses"><h2>Courses — as shown on the institute site</h2>
+<p class="note">Fees below are copied from the institute's courses page exactly as shown (numbers only — currency is not spelled out on those cards). Duration shown as 2 months unless noted. This demo does not set or change any fee.</p>
+<div class="grid">
+<div class="card"><h3>Import / Export Management</h3><p>Fee as shown: 7,500 &middot; 2 months</p></div>
+<div class="card"><h3>Taxation Management</h3><p>Fee as shown: 10,000 &middot; 2 months</p></div>
+<div class="card"><h3>WordPress</h3><p>Fee as shown: 20,000 &middot; 2 months</p></div>
+<div class="card"><h3>Search Engine Optimization (SEO)</h3><p>Fee as shown: 10,000 &middot; 2 months</p></div>
+<div class="card"><h3>Google Ads</h3><p>Fee as shown: 15,000 &middot; 2 months</p></div>
+<div class="card"><h3>Shopify</h3><p>Fee as shown: 10,000 &middot; 2 months</p></div>
+<div class="card"><h3>Amazon</h3><p>Fee as shown: 10,000 &middot; 2 months</p></div>
+<div class="card"><h3>Graphic Designing</h3><p>Fee as shown: 10,000 &middot; 2 months</p></div>
+</div>
+<p class="note">Course categories on the homepage: Knitwear — 20 courses; IT Software — 8; Industrial — 3; Frontend — 2; Designing — 3; Backend — 3. Full list is on the institute's live courses page.</p>
+</section>
+
+<section id="apply"><h2>Apply Online — demo form</h2>
+<form id="applyForm">
+<label for="aname">Your Name</label><input id="aname" required placeholder="Full name">
+<label for="aemail">Your Email</label><input id="aemail" type="email" required placeholder="you@example.com">
+<label for="acourse">Course</label><select id="acourse"><option>Import / Export Management</option><option>Taxation Management</option><option>WordPress</option><option>Search Engine Optimization (SEO)</option><option>Google Ads</option><option>Shopify</option><option>Amazon</option><option>Graphic Designing</option><option>Other / knitwear course</option></select>
+<label for="amsg">Your Message (optional)</label><textarea id="amsg" rows="3" placeholder="Any question about the course or admission"></textarea>
+<p><strong>Documents the institute's How To Apply page asks for</strong> (checklist only — this demo does not upload or store any document): three most recent passport-size photographs; one attested photocopy of each educational certificate; one attested photocopy of domicile certificate; one attested photocopy of National Identity Card or Form-B.</p>
+<p><button type="submit">Submit Application (Demo)</button></p>
+<div class="ok" id="okMsg">Thank you — your demo application has been saved in this browser only. In a live site, the institute would reply to your email. This demo does not send anything to the institute and does not upload any document.</div>
+<p class="note">Demo notice: this form stores the application in your browser's local storage only. There is no server, no real login, and no payment or notification system in this demo. A production site would need a backend / WordPress build. No seat, fee, or admission outcome is promised here.</p>
+</form></section>
+
+<section id="contact"><h2>Contact</h2>
+<div class="grid">
+<div class="card"><h3>Address</h3><p>150-Ali Block Garden Town, Lahore, Punjab, Pakistan</p><p class="note">Facebook (more precise): PKTI Building: 150 - Ali Block, New Garden Town, Lahore, Pakistan, 54000.</p></div>
+<div class="card"><h3>Phones</h3><p>042-99232364 | 042-99232365 | 0303-4166688</p><p class="note">As shown on the official site. 0303-4190670 appears on Facebook only, labelled WhatsApp there, but no wa.me link was verified — so it is not presented here as a WhatsApp link.</p></div>
+<div class="card"><h3>Email</h3><p>info@pktilahore.edu.pk (general) &middot; admissions@pktilahore.edu.pk (applications)</p><p class="note">The .org spelling was not found and its domain did not resolve — do not use it.</p></div>
+<div class="card"><h3>Hours</h3><p>No opening-hours timetable was found on the official site — none is claimed here.</p></div>
+<div class="card"><h3>Follow</h3><p><a href="https://www.facebook.com/PKTILHR">Facebook — Pakistan Knitwear Training Institute - Lahore, 13K followers</a><br><a href="https://www.youtube.com/@pktilahore4115">YouTube — @pktilahore4115</a></p><p class="note">No Instagram page was found on the site or Facebook links — none is claimed here.</p></div>
+<div class="card"><h3>Leadership (as shown)</h3><p>Chairman: Dr. Muhammad Mushtaq Ahmad Mangat<br>Acting Principal: Mr. Qazi Shahid Ramzan<br>Senior Member, Management Committee: Mr. Muhammad Ayub</p></div>
+</div>
+</section>
+</main>
+<footer><div class="wrap">
+<p><strong>DEMO — PKTI Lahore admissions sample.</strong> Built for review only. Not affiliated with, and not published by, the institute. Real student data and documents must not be entered in this demo.</p>
+<p><a href="admin.html">Institute Login (Demo CMS)</a> — front-end demo only; login is UI-only, no real authentication.</p>
+</div></footer>
+<script>
+const KEY='pkti_demo_v1';
+function getData(){try{return JSON.parse(localStorage.getItem(KEY))||{}}catch(e){return{}}}
+document.getElementById('applyForm').addEventListener('submit',e=>{e.preventDefault();
+  const d=getData(); d.applications=d.applications||[];
+  d.applications.push({name:document.getElementById('aname').value,email:document.getElementById('aemail').value,course:document.getElementById('acourse').value,message:document.getElementById('amsg').value,status:'Pending',at:new Date().toISOString()});
+  localStorage.setItem(KEY,JSON.stringify(d)); document.getElementById('okMsg').style.display='block'; e.target.reset();});
+</script>
+</body>
+</html>
